@@ -154,6 +154,35 @@
   text-decoration: underline;
 }
 
+/* Projects Section */
+.projects-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.projects-section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projects-section-header h2 {
+  font-size: 2.2rem;
+  color: var(--text-dark);
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+.projects-section-header p {
+  font-size: 1.1rem;
+  color: var(--text-medium);
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+}
+
 /* Featured Projects Section */
 .featured-projects {
   max-width: 1200px;

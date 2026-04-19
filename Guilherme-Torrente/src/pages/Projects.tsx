@@ -30,8 +30,7 @@ export const Projects = () => {
       <section className="projects-header">
         <h1>Meus Projetos</h1>
         <p>
-          Aqui você encontra todos os projetos que desenvolvi, desde aplicações em produção até projetos educacionais.
-          Clique nos ícones para acessar o GitHub ou a versão online.
+          Projetos em produção com clientes reais, além de estudos e projetos educacionais que demonstram minha capacidade de aprendizado contínuo.
         </p>
       </section>
 
@@ -54,11 +53,11 @@ export const Projects = () => {
         </div>
       </section>
 
-      {selectedCategory === 'Todos' && featuredProjects.length > 0 && (
+      {featuredProjects.length > 0 && (
         <section className="case-studies-section">
           <div className="case-studies-header">
-            <h2>Cases Reais</h2>
-            <p>Projetos que estão em produção e recebem acessos diários</p>
+            <h2>🚀 Projetos em Produção</h2>
+            <p>Aplicações reais que estão rodando e gerando valor para clientes/usuários</p>
           </div>
           <div className="case-studies-container">
             {projects
@@ -74,29 +73,38 @@ export const Projects = () => {
         </section>
       )}
 
-      <section className="projects-filter">
-        <div className="filter-buttons">
-          {CATEGORIES.map((category) => (
-            <button
-              key={category}
-              className={`filter-btn ${selectedCategory === category ? 'active' : ''}`}
-              onClick={() => setSelectedCategory(category)}
-            >
-              {category}
-              <span className="count">{categoryCount(category)}</span>
-            </button>
-          ))}
+      <section className="projects-section">
+        <div className="projects-section-header">
+          <h2>📚 Projetos de Estudo & Aprendizado</h2>
+          <p>Projetos desenvolvidos para aprender e dominar diferentes tecnologias e padrões de arquitetura</p>
         </div>
-      </section>
 
-      <section className="projects-grid">
-        {filteredProjects.length > 0 ? (
-          filteredProjects.map((project) => <ProjectCard key={project.id} project={project} />)
-        ) : (
-          <div className="no-projects">
-            <p>Nenhum projeto encontrado nesta categoria.</p>
+        <section className="projects-filter">
+          <div className="filter-buttons">
+            {CATEGORIES.map((category) => (
+              <button
+                key={category}
+                className={`filter-btn ${selectedCategory === category ? 'active' : ''}`}
+                onClick={() => setSelectedCategory(category)}
+              >
+                {category}
+                <span className="count">{categoryCount(category)}</span>
+              </button>
+            ))}
           </div>
-        )}
+        </section>
+
+        <section className="projects-grid">
+          {filteredProjects.filter((p) => !p.featured).length > 0 ? (
+            filteredProjects
+              .filter((p) => !p.featured)
+              .map((project) => <ProjectCard key={project.id} project={project} />)
+          ) : (
+            <div className="no-projects">
+              <p>Nenhum projeto encontrado nesta categoria.</p>
+            </div>
+          )}
+        </section>
       </section>
 
       <section className="projects-note">
