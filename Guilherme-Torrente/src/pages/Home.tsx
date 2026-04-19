@@ -16,9 +16,9 @@ export const Home = () => {
           <p className="hero-subtitle">Desenvolvedor Full Stack</p>
 
           <p className="hero-description">
-            Especializado em automação de processos e entrega de valor para negócios reais. 
-            Desenvolvo aplicações modernas com React, Firebase e tecnologias web atuais, 
-            transformando ideias em soluções escaláveis que geram impacto.
+            Desenvolvedor Full Stack dedicado à criação de interfaces modernas, que geram impacto
+             e sistemas escaláveis. Especialista em React, C# e Firebase, atuo desde a concepção
+              visual até a implementação de regras de negócio e banco de dados para soluções reais.
           </p>
 
           <div className="hero-cta">
