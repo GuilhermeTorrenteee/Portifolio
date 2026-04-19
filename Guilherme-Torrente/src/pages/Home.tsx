@@ -11,13 +11,14 @@ export const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <h1 className="hero-title">
-            Olá, eu sou <span>Guilherme Torrente</span>
+            Guilherme Torrente
           </h1>
-          <p className="hero-subtitle">Full-Stack Developer | C# | React | Java</p>
+          <p className="hero-subtitle">Desenvolvedor Front-end & Especialista em Soluções Web</p>
 
           <p className="hero-description">
-            Desenvolvedor com experiência em múltiplas tecnologias, criando soluções inovadoras e escaláveis.
-            Apaixonado por código limpo, arquitetura de software e aprendizado contínuo.
+            Especializado em automação de processos e entrega de valor para negócios reais. 
+            Desenvolvo aplicações modernas com React, Firebase e tecnologias web atuais, 
+            transformando ideias em soluções escaláveis que geram impacto.
           </p>
 
           <div className="hero-cta">

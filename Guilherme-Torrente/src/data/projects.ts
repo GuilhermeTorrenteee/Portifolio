@@ -25,7 +25,7 @@ export const projects: Project[] = [
   {
     id: 2,
     name: 'Sushi do Cabeça',
-    description: 'Plataforma de pedidos de sushi com cardápio completo, carrinho de compras e sistema de login de clientes. Integração com Firebase para gerenciamento de dados.',
+    description: 'Plataforma de pedidos de sushi com cardápio completo, carrinho de compras e sistema de login de clientes. Integração com Firebase para gerenciamento de dados, dashboard de vendas e controle de pedidos(modo admin).',
     technologies: ['JavaScript', 'HTML', 'CSS', 'Firebase'],
     category: 'Full-Stack',
     link: 'https://sushi-do-cabeca.web.app/',

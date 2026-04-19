@@ -1,19 +1,17 @@
 .project-card {
   background: white;
-  border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  border-radius: 12px;
+  padding: 2rem;
+  border: var(--border);
+  transition: var(--transition);
   height: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid #e0e0e0;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(30, 58, 95, 0.12);
-  border-color: #1e3a5f;
+  border-color: #cbd5e1;
+  box-shadow: var(--shadow-hover);
 }
 
 .card-header {
@@ -26,9 +24,10 @@
 
 .card-header h3 {
   margin: 0;
-  color: #2c3e50;
+  color: var(--text-dark);
   font-size: 1.3rem;
   flex: 1;
+  font-weight: 600;
 }
 
 .card-links {
@@ -67,11 +66,12 @@
 }
 
 .card-description {
-  color: #555;
+  color: var(--text-medium);
   font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0 0 1rem 0;
+  line-height: 1.7;
+  margin: 0 0 1.5rem 0;
   flex: 1;
+  font-weight: 500;
 }
 
 .card-technologies {
