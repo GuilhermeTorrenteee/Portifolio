@@ -148,6 +148,15 @@
   justify-content: center;
   border: 2px solid #e0e0e0;
   position: relative;
+  overflow: hidden;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .preview-emoji {
@@ -158,11 +167,19 @@
 /* Tema Sushi */
 .case-study-sushi .preview-placeholder {
   background: linear-gradient(135deg, #ffe8d6 0%, #ffd6e8 100%);
+  border-color: #ffccb3;
 }
 
 /* Tema GhostTech */
 .case-study-ghosttech .preview-placeholder {
   background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  border-color: #c3b1e1;
+}
+
+/* Image hover effect */
+.case-study-card:hover .preview-image {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
 }
 
 /* Responsivo */
