@@ -34,11 +34,6 @@ export const ProfileCard = () => {
               <span className="stat-label">Em Produção</span>
             </div>
           </div>
-
-          <p className="profile-bio">
-            Desenvolvedor apaixonado por código limpo, arquitetura de software e aprendizado contínuo. Proficiente em
-            C#, .NET, React e Java com experiência completa em full-stack development.
-          </p>
         </div>
       </div>
     </section>

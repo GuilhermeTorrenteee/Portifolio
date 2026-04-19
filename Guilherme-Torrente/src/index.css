@@ -8,11 +8,13 @@
   --primary: #1e3a5f;
   --secondary: #0f2040;
   --accent: #000000;
-  --text-dark: #2c3e50;
-  --text-light: #7f8c8d;
+  --text-dark: #1a1a1a;
+  --text-medium: #4a5568;
+  --text-light: #6b7280;
   --bg-light: #f9f9f9;
   --bg-white: #ffffff;
-  --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 }
 
@@ -20,7 +22,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

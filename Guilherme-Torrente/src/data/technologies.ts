@@ -29,10 +29,10 @@ export const technologies: Technology[] = [
 
   // Patterns & Architecture
   { name: 'MVC Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/chrome/chrome-original.svg', proficiency: 'Avançado' },
-  { name: 'Repository Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg', proficiency: 'Avançado' },
-  { name: 'Singleton', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg', proficiency: 'Intermediário' },
-  { name: 'Strategy Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg', proficiency: 'Intermediário' },
-  { name: 'Facade Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg', proficiency: 'Intermediário' },
+  { name: 'Repository Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg', proficiency: 'Intermediário' },
+  { name: 'Singleton', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg', proficiency: 'Iniciante' },
+  { name: 'Strategy Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg', proficiency: 'Iniciante' },
+  { name: 'Facade Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg', proficiency: 'Iniciante' },
 
   // Cloud & DevOps
   { name: 'Firebase', category: 'Cloud', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg', proficiency: 'Avançado' },

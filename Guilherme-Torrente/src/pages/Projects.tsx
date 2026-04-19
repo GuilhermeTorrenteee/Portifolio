@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { projects, type Project } from '../data/projects';
 import { ProjectCard } from '../components/ProjectCard';
-import { FeaturedProjectCard } from '../components/FeaturedProjectCard';
+import { CaseStudyCard } from '../components/CaseStudyCard';
 import './Projects.css';
 
 type CategoryFilter = 'Todos' | Project['category'];
@@ -55,15 +55,18 @@ export const Projects = () => {
       </section>
 
       {selectedCategory === 'Todos' && featuredProjects.length > 0 && (
-        <section className="featured-projects">
-          <div className="featured-header-section">
-            <h2>Projetos em Produção</h2>
-            <p>Confira os projetos que estão rodando e acessíveis para usar no dia a dia</p>
+        <section className="case-studies-section">
+          <div className="case-studies-header">
+            <h2>Cases Reais</h2>
+            <p>Projetos que estão em produção e recebem acessos diários</p>
           </div>
-          <div className="featured-projects-grid">
-            {featuredProjects.map((project) => (
-              <FeaturedProjectCard key={project.id} project={project} />
-            ))}
+          <div className="case-studies-container">
+            {projects
+              .filter((p) => p.featured)
+              .map((project) => {
+                const theme = project.id === 1 ? 'ghosttech' : 'sushi';
+                return <CaseStudyCard key={project.id} project={project} theme={theme} />;
+              })}
           </div>
         </section>
       )}

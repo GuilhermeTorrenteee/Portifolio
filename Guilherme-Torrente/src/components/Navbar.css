@@ -14,12 +14,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
 }
 
 .navbar-logo {
   color: white;
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   letter-spacing: 2px;
   transition: transform 0.3s ease;
@@ -30,7 +31,47 @@
 }
 
 .navbar-logo span {
-  color: #000000;
+  color: #5eb3ff;
+}
+
+.navbar-social {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.social-icon:hover {
+  background: #5eb3ff;
+  transform: translateY(-2px);
+  border-color: #5eb3ff;
+}
+
+.social-icon:hover img {
+  filter: brightness(0) invert(0);
 }
 
 .menu-icon {
@@ -78,6 +119,10 @@
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
+  }
+
+  .navbar-social {
+    display: none;
   }
 
   .nav-menu {
