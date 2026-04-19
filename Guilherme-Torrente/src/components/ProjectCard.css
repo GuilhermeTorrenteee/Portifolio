@@ -137,10 +137,15 @@
 
 @media screen and (max-width: 768px) {
   .project-card {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .card-header h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+
+  .card-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
   }
 }
