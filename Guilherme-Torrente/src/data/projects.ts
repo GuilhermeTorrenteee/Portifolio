@@ -271,6 +271,18 @@ export const projects: Project[] = [
     category: 'Estudos Java',
     github: 'https://github.com/GuilhermeTorrenteee/Contador',
   },
+
+  // PORTFOLIO (1)
+  {
+    id: 32,
+    name: 'Portfólio Pessoal',
+    description: 'Portfólio profissional desenvolvido com React, TypeScript e Vite. Showcasing de projetos, tecnologias e habilidades.',
+    technologies: ['React', 'TypeScript', 'Vite', 'Firebase', 'CSS3'],
+    category: 'Full-Stack',
+    github: 'https://github.com/GuilhermeTorrenteee/Portifolio',
+    link: 'https://guilherme-torrente.web.app/',
+    featured: true,
+  },
 ];
 
 export const getProjectsByCategory = (category: Project['category']) => {
