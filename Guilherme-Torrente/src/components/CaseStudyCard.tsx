@@ -54,10 +54,18 @@ export const CaseStudyCard = ({ project, theme = 'sushi' }: CaseStudyCardProps) 
 
           <div className="case-study-preview">
             <div className="preview-placeholder">
-              <span className="preview-emoji">
-                {theme === 'sushi' && '🍣'}
-                {theme === 'ghosttech' && '👻'}
-              </span>
+              {project.screenshot ? (
+                <img 
+                  src={project.screenshot} 
+                  alt={`${project.name} screenshot`}
+                  className="preview-image"
+                />
+              ) : (
+                <span className="preview-emoji">
+                  {theme === 'sushi' && '🍣'}
+                  {theme === 'ghosttech' && '👻'}
+                </span>
+              )}
             </div>
           </div>
         </div>
