@@ -11,8 +11,8 @@
 
 .tech-badge-container:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.15);
-  border-color: #0066cc;
+  box-shadow: 0 4px 12px rgba(30, 58, 95, 0.15);
+  border-color: #1e3a5f;
 }
 
 .tech-badge-container.small {

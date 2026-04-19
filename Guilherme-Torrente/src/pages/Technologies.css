@@ -4,7 +4,7 @@
 }
 
 .tech-header {
-  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #0f2040 100%);
   color: white;
   padding: 4rem 2rem;
   text-align: center;
@@ -38,7 +38,7 @@
   color: #2c3e50;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #0066cc;
+  border-bottom: 2px solid #1e3a5f;
 }
 
 .tech-grid {
@@ -67,7 +67,7 @@
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #0066cc;
+  color: #1e3a5f;
   margin-bottom: 0.5rem;
 }
 

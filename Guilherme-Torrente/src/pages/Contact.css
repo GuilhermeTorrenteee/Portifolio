@@ -4,7 +4,7 @@
 }
 
 .contact-header {
-  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #0f2040 100%);
   color: white;
   padding: 4rem 2rem;
   text-align: center;
@@ -39,18 +39,18 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: all 0.3s ease;
-  border-top: 3px solid #0066cc;
+  border-top: 3px solid #1e3a5f;
 }
 
 .contact-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 8px 25px rgba(30, 58, 95, 0.2);
 }
 
 .contact-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #0f2040 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@
 .contact-link {
   display: inline-block;
   padding: 0.7rem 1.5rem;
-  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+  background: linear-gradient(135deg, #1e3a5f 0%, #0f2040 100%);
   color: white;
   text-decoration: none;
   border-radius: 25px;
@@ -92,7 +92,7 @@
 
 .contact-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 102, 204, 0.3);
+  box-shadow: 0 5px 15px rgba(30, 58, 95, 0.3);
 }
 
 .contact-info {
@@ -109,7 +109,7 @@
   font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 1.5rem;
-  border-bottom: 2px solid #0066cc;
+  border-bottom: 2px solid #1e3a5f;
   padding-bottom: 1rem;
 }
 
@@ -131,7 +131,7 @@
 }
 
 .info-box strong {
-  color: #0066cc;
+  color: #1e3a5f;
 }
 
 @media screen and (max-width: 768px) {

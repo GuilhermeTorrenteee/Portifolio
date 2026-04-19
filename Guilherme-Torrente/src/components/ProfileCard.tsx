@@ -22,7 +22,7 @@ export const ProfileCard = () => {
 
           <div className="profile-stats">
             <div className="stat">
-              <span className="stat-value">31+</span>
+              <span className="stat-value">36+</span>
               <span className="stat-label">Repositórios</span>
             </div>
             <div className="stat">

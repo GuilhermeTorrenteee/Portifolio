@@ -23,8 +23,8 @@
   height: 280px;
   border-radius: 50%;
   object-fit: cover;
-  border: 5px solid #0066cc;
-  box-shadow: 0 10px 40px rgba(0, 102, 204, 0.3);
+  border: 5px solid #1e3a5f;
+  box-shadow: 0 10px 40px rgba(30, 58, 95, 0.3);
   transition: transform 0.3s ease;
 }
 
@@ -53,7 +53,7 @@
 
 .job-title {
   font-size: 1.3rem;
-  color: #0066cc;
+  color: #1e3a5f;
   font-weight: 600;
   margin: 0 0 0.5rem 0;
 }
@@ -81,7 +81,7 @@
   display: block;
   font-size: 2rem;
   font-weight: 700;
-  color: #0066cc;
+  color: #1e3a5f;
   margin-bottom: 0.3rem;
 }
 

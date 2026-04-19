@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { projects, type Project } from '../data/projects';
 import { ProjectCard } from '../components/ProjectCard';
+import { FeaturedProjectCard } from '../components/FeaturedProjectCard';
 import './Projects.css';
 
 type CategoryFilter = 'Todos' | Project['category'];
@@ -16,6 +17,8 @@ export const Projects = () => {
 
   const filteredProjects =
     selectedCategory === 'Todos' ? projects : projects.filter((p) => p.category === selectedCategory);
+
+  const featuredProjects = projects.filter((p) => p.featured);
 
   const categoryCount = (category: CategoryFilter) => {
     if (category === 'Todos') return projects.length;
@@ -38,7 +41,7 @@ export const Projects = () => {
           <div className="stat-label">Tecnologias Dominadas</div>
         </div>
         <div className="stat-card">
-          <div className="stat-value">31+</div>
+          <div className="stat-value">36+</div>
           <div className="stat-label">Repositórios no GitHub</div>
         </div>
         <div className="stat-card">
@@ -50,6 +53,20 @@ export const Projects = () => {
           <div className="stat-label">Anos de Experiência</div>
         </div>
       </section>
+
+      {selectedCategory === 'Todos' && featuredProjects.length > 0 && (
+        <section className="featured-projects">
+          <div className="featured-header-section">
+            <h2>Projetos em Produção</h2>
+            <p>Confira os projetos que estão rodando e acessíveis para usar no dia a dia</p>
+          </div>
+          <div className="featured-projects-grid">
+            {featuredProjects.map((project) => (
+              <FeaturedProjectCard key={project.id} project={project} />
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="projects-filter">
         <div className="filter-buttons">
