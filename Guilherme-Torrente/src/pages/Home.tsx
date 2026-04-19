@@ -13,7 +13,7 @@ export const Home = () => {
           <h1 className="hero-title">
             Guilherme Torrente
           </h1>
-          <p className="hero-subtitle">Desenvolvedor Front-end & Especialista em Soluções Web</p>
+          <p className="hero-subtitle">Desenvolvedor Full Stack</p>
 
           <p className="hero-description">
             Especializado em automação de processos e entrega de valor para negócios reais. 

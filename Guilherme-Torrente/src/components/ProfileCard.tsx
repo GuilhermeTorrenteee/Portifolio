@@ -10,14 +10,11 @@ export const ProfileCard = () => {
             alt="Guilherme Torrente"
             className="profile-image"
           />
-          <div className="profile-badge">
-            <span className="badge-text">Full-Stack Developer</span>
-          </div>
         </div>
 
         <div className="profile-info">
           <h2>Guilherme Torrente</h2>
-          <p className="job-title">Full-Stack Developer</p>
+          <p className="job-title">Desenvolvedor Full Stack</p>
           <p className="location">📍 Bauru, São Paulo - Brasil</p>
 
           <div className="profile-stats">
