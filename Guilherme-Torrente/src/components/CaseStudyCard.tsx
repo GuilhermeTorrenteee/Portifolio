@@ -4,7 +4,7 @@ import './CaseStudyCard.css';
 
 interface CaseStudyCardProps {
   project: Project;
-  theme?: 'sushi' | 'ghosttech';
+  theme?: 'sushi' | 'ghosttech' | 'portfolio';
 }
 
 export const CaseStudyCard = ({ project, theme = 'sushi' }: CaseStudyCardProps) => {
@@ -64,6 +64,7 @@ export const CaseStudyCard = ({ project, theme = 'sushi' }: CaseStudyCardProps) 
                 <span className="preview-emoji">
                   {theme === 'sushi' && '🍣'}
                   {theme === 'ghosttech' && '👻'}
+                  {theme === 'portfolio' && '💼'}
                 </span>
               )}
             </div>

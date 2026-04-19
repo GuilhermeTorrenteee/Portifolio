@@ -285,6 +285,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Portifolio',
     link: 'https://guilherme-torrente.web.app/',
     featured: true,
+    screenshot: '/portifolio.png',
   },
 ];
 

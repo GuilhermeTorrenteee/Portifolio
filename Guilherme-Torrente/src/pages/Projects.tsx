@@ -64,7 +64,10 @@ export const Projects = () => {
             {projects
               .filter((p) => p.featured)
               .map((project) => {
-                const theme = project.id === 1 ? 'ghosttech' : 'sushi';
+                let theme: 'ghosttech' | 'sushi' | 'portfolio' = 'sushi';
+                if (project.id === 1) theme = 'ghosttech';
+                else if (project.id === 2) theme = 'sushi';
+                else if (project.id === 32) theme = 'portfolio';
                 return <CaseStudyCard key={project.id} project={project} theme={theme} />;
               })}
           </div>
