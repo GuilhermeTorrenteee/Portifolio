@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Share2, ExternalLink, ArrowRight } from 'lucide-react';
 import { ProfileCard } from '../components/ProfileCard';
+import { CaseStudyCard } from '../components/CaseStudyCard';
+import { projects } from '../data/projects';
 import './Home.css';
 
 export const Home = () => {
@@ -76,6 +78,21 @@ export const Home = () => {
           <div className="highlight-icon">🎯</div>
           <h3>Soluções Customizadas</h3>
           <p>Desenvolvendo soluções personalizadas que atendem às necessidades reais</p>
+        </div>
+      </section>
+
+      <section className="case-studies-section">
+        <div className="case-studies-header">
+          <h2>Cases Reais</h2>
+          <p>Projetos que estão em produção e recebem acessos diários</p>
+        </div>
+        <div className="case-studies-container">
+          {projects
+            .filter((p) => p.featured)
+            .map((project) => {
+              const theme = project.id === 1 ? 'ghosttech' : 'sushi';
+              return <CaseStudyCard key={project.id} project={project} theme={theme} />;
+            })}
         </div>
       </section>
     </div>

@@ -7,7 +7,6 @@ export interface Project {
   github?: string;
   link?: string;
   featured?: boolean;
-  screenshot?: string;
 }
 
 export const projects: Project[] = [
@@ -20,7 +19,6 @@ export const projects: Project[] = [
     category: 'Full-Stack',
     link: 'https://ghosttech-decae.web.app/',
     featured: true,
-    screenshot: 'https://image.thum.io/get/width/1280/height/720/crop/900x600/https://ghosttech-decae.web.app/',
   },
   {
     id: 2,
@@ -30,7 +28,6 @@ export const projects: Project[] = [
     category: 'Full-Stack',
     link: 'https://sushi-do-cabeca.web.app/',
     featured: true,
-    screenshot: 'https://image.thum.io/get/width/1280/height/720/crop/900x600/https://sushi-do-cabeca.web.app/',
   },
   {
     id: 3,
