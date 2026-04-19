@@ -1,0 +1,94 @@
+.tech-badge-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.tech-badge-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.15);
+  border-color: #0066cc;
+}
+
+.tech-badge-container.small {
+  padding: 0.7rem;
+  gap: 0.7rem;
+}
+
+.tech-badge-container.large {
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.tech-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.tech-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tech-badge-container.small .tech-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.tech-badge-container.large .tech-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.tech-info {
+  flex: 1;
+}
+
+.tech-info h4 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tech-badge-container.small .tech-info h4 {
+  font-size: 0.9rem;
+}
+
+.tech-badge-container.large .tech-info h4 {
+  font-size: 1.2rem;
+}
+
+.proficiency {
+  display: block;
+  color: #000000;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .tech-badge-container {
+    padding: 0.8rem;
+    gap: 0.8rem;
+  }
+
+  .tech-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .tech-info h4 {
+    font-size: 0.95rem;
+  }
+}

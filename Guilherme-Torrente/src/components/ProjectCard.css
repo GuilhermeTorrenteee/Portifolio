@@ -1,0 +1,146 @@
+.project-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 102, 204, 0.2);
+  border-color: #0066cc;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.3rem;
+  flex: 1;
+}
+
+.card-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card-link-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
+}
+
+.card-link-btn.github {
+  background: #333;
+}
+
+.card-link-btn.github:hover {
+  background: #000;
+  transform: scale(1.1);
+}
+
+.card-link-btn.external {
+  background: #0066cc;
+}
+
+.card-link-btn.external:hover {
+  background: #0052a3;
+  transform: scale(1.1);
+}
+
+.card-description {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+  flex: 1;
+}
+
+.card-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.card-category {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 1rem;
+}
+
+.category-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.category-tag.full-stack {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.category-tag.backend {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.category-tag.frontend {
+  background: #fce4ec;
+  color: #c2185b;
+}
+
+.category-tag.html\/css {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.category-tag.estudos-c\# {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.category-tag.estudos-java {
+  background: #fce4ec;
+  color: #ad1457;
+}
+
+@media screen and (max-width: 768px) {
+  .project-card {
+    padding: 1rem;
+  }
+
+  .card-header h3 {
+    font-size: 1.1rem;
+  }
+}
