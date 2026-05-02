@@ -19,7 +19,7 @@ export const ProfileCard = () => {
 
           <div className="profile-stats">
             <div className="stat">
-              <span className="stat-value">36+</span>
+              <span className="stat-value">38+</span>
               <span className="stat-label">Repositórios</span>
             </div>
             <div className="stat">
@@ -27,8 +27,12 @@ export const ProfileCard = () => {
               <span className="stat-label">Tecnologias</span>
             </div>
             <div className="stat">
-              <span className="stat-value">3</span>
+              <span className="stat-value">4</span>
               <span className="stat-label">Em Produção</span>
+            </div>
+            <div className="stat">
+              <span className="stat-value">3+</span>
+              <span className="stat-label">Anos de Experiência</span>
             </div>
           </div>
         </div>

@@ -34,11 +34,11 @@ export const Technologies = () => {
           <p>Tecnologias Dominadas</p>
         </div>
         <div className="stat-card">
-          <div className="stat-number">36+</div>
+          <div className="stat-number">38+</div>
           <p>Repositórios no GitHub</p>
         </div>
         <div className="stat-card">
-          <div className="stat-number">3</div>
+          <div className="stat-number">4</div>
           <p>Projetos em Produção</p>
         </div>
         <div className="stat-card">

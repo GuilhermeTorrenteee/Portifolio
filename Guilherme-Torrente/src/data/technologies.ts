@@ -26,6 +26,7 @@ export const technologies: Technology[] = [
   { name: 'SQL Server', category: 'Database', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain.svg', proficiency: 'Avançado' },
   { name: 'MySQL', category: 'Database', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg', proficiency: 'Intermediário' },
   { name: 'Dapper', category: 'Database', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg', proficiency: 'Intermediário' },
+  { name: 'Firebase', category: 'Database', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg', proficiency: 'Avançado' },
 
   // Patterns & Architecture
   { name: 'MVC Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/chrome/chrome-original.svg', proficiency: 'Avançado' },
@@ -35,7 +36,6 @@ export const technologies: Technology[] = [
   { name: 'Facade Pattern', category: 'Patterns', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg', proficiency: 'Iniciante' },
 
   // Cloud & DevOps
-  { name: 'Firebase', category: 'Cloud', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg', proficiency: 'Avançado' },
   { name: 'Railway', category: 'Cloud', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-original.svg', proficiency: 'Intermediário' },
   { name: 'Git', category: 'Cloud', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg', proficiency: 'Avançado' },
 ];

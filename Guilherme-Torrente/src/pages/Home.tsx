@@ -64,7 +64,7 @@ export const Home = () => {
         <div className="highlight-card">
           <div className="highlight-icon">🚀</div>
           <h3>Projetos em Produção</h3>
-          <p>GhostTech e Sushi do Cabeça são exemplos de projetos em produção e funcionando</p>
+          <p>GhostTech, Sushi do Cabeça e RH-Modelo são exemplos de projetos em produção e funcionando</p>
         </div>
 
         <div className="highlight-card">

@@ -40,11 +40,11 @@ export const Projects = () => {
           <div className="stat-label">Tecnologias Dominadas</div>
         </div>
         <div className="stat-card">
-          <div className="stat-value">36+</div>
+          <div className="stat-value">38+</div>
           <div className="stat-label">Repositórios no GitHub</div>
         </div>
         <div className="stat-card">
-          <div className="stat-value">3</div>
+          <div className="stat-value">4</div>
           <div className="stat-label">Projetos em Produção</div>
         </div>
         <div className="stat-card">
@@ -63,9 +63,10 @@ export const Projects = () => {
             {projects
               .filter((p) => p.featured)
               .map((project) => {
-                let theme: 'ghosttech' | 'sushi' | 'portfolio' = 'sushi';
+                let theme: 'ghosttech' | 'sushi' | 'portfolio' | 'rh' = 'sushi';
                 if (project.id === 1) theme = 'ghosttech';
                 else if (project.id === 2) theme = 'sushi';
+                else if (project.id === 3) theme = 'rh';
                 else if (project.id === 32) theme = 'portfolio';
                 return <CaseStudyCard key={project.id} project={project} theme={theme} />;
               })}
@@ -95,10 +96,8 @@ export const Projects = () => {
         </section>
 
         <section className="projects-grid">
-          {filteredProjects.filter((p) => !p.featured).length > 0 ? (
-            filteredProjects
-              .filter((p) => !p.featured)
-              .map((project) => <ProjectCard key={project.id} project={project} />)
+          {filteredProjects.length > 0 ? (
+            filteredProjects.map((project) => <ProjectCard key={project.id} project={project} />)
           ) : (
             <div className="no-projects">
               <p>Nenhum projeto encontrado nesta categoria.</p>

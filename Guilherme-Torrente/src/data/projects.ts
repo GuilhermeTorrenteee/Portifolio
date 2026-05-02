@@ -34,6 +34,16 @@ export const projects: Project[] = [
   },
   {
     id: 3,
+    name: 'RH-Modelo',
+    description: 'Plataforma inteligente de gestão de recursos humanos com controle completo de colaboradores, departamentos e dados corporativos. Integra IA para análise e validação de currículos, oferecendo recomendações automáticas de candidatos. Sistema completo e moderno para otimizar processos de RH.',
+    technologies: ['React', 'HTML', 'CSS', 'Firebase', 'IA'],
+    category: 'Full-Stack',
+    link: 'https://rh-modelo.web.app/',
+    featured: true,
+    screenshot: '/Rh-Modelo.png',
+  },
+  {
+    id: 4,
     name: 'Lanche-Mac',
     description: 'Site de lancheria desenvolvido com ASP.NET Core MVC. Demonstra conhecimento em desenvolvimento web backend com C# e .NET.',
     technologies: ['C#', 'HTML', 'CSS', 'ASP.NET Core MVC'],
@@ -41,7 +51,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Lanche-Mac',
   },
   {
-    id: 4,
+    id: 5,
     name: 'PSN-STORE',
     description: 'Loja virtual de jogos PS5 desenvolvida com React e TypeScript, demonstrando habilidades em frontend moderno.',
     technologies: ['React', 'TypeScript', 'CSS'],
@@ -51,7 +61,7 @@ export const projects: Project[] = [
 
   // BACKEND PROJECTS (5)
   {
-    id: 5,
+    id: 6,
     name: 'Acesso de dados com .NET, C#, Dapper e SQL Server',
     description: 'Projeto focado em acesso a dados utilizando Dapper como ORM e SQL Server como banco de dados relacional.',
     technologies: ['C#', '.NET Core', 'Dapper', 'SQL Server', 'T-SQL'],
@@ -59,7 +69,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/-Acesso-dados-com-.NET-C-Dapper-e-SQL-Server',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Projeto Spring',
     description: 'Implementação de padrões de design com Java e Spring Framework (Singleton, Strategy/Repository, Facade).',
     technologies: ['Java', 'Spring Framework', 'Padrões de Design'],
@@ -67,7 +77,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Projeto-Spring',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Santander DevWeek 2023',
     description: 'API REST desenvolvida em Java com Spring Boot 3 e Java 17, publicada na nuvem usando Railway.',
     technologies: ['Java', 'Spring Boot', 'REST API', 'Railway'],
@@ -75,7 +85,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/santander-dev-week-2023',
   },
   {
-    id: 8,
+    id: 9,
     name: 'CRUD Pessoa Form',
     description: 'Aplicação de gerenciamento de pessoas com operações CRUD implementada em C# com Windows Forms.',
     technologies: ['C#', '.NET Framework'],
@@ -83,7 +93,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/CrudPessoaForm',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Fundamentos do SQL Server',
     description: 'Projeto educacional focado em fundamentos e boas práticas de T-SQL e SQL Server.',
     technologies: ['T-SQL', 'SQL Server'],
@@ -93,7 +103,7 @@ export const projects: Project[] = [
 
   // FRONTEND PROJECTS (3)
   {
-    id: 10,
+    id: 11,
     name: 'Angular THE FLASH Blog',
     description: 'Blog baseado em layout do Dribbble desenvolvido com Angular, TypeScript, HTML e CSS moderno.',
     technologies: ['Angular', 'TypeScript', 'HTML', 'CSS'],
@@ -101,7 +111,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Angular-THE-FLASH-blog',
   },
   {
-    id: 11,
+    id: 12,
     name: 'Miniblog React',
     description: 'Pequeno blog desenvolvido com React usando Create React App, JavaScript, HTML e CSS.',
     technologies: ['React', 'JavaScript', 'HTML', 'CSS'],
@@ -109,7 +119,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Miniblog-React',
   },
   {
-    id: 12,
+    id: 13,
     name: 'React Router',
     description: 'Projeto educacional focado em aprendizado de React Router e navegação em aplicações React.',
     technologies: ['React', 'React Router', 'JavaScript'],
@@ -119,7 +129,7 @@ export const projects: Project[] = [
 
   // HTML/CSS PROJECTS (5)
   {
-    id: 13,
+    id: 14,
     name: 'Pokedex',
     description: 'Projeto Pokedex desenvolvido com CSS puro, consumindo dados de API externa para exibir Pokémons.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -127,7 +137,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Pokedex',
   },
   {
-    id: 14,
+    id: 15,
     name: 'Site Agência',
     description: 'Site de agência desenvolvido com HTML e CSS, baseado em aula prática de desenvolvimento web.',
     technologies: ['HTML', 'CSS'],
@@ -135,7 +145,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Site-agencia',
   },
   {
-    id: 15,
+    id: 16,
     name: 'Formulário Venda de Carro',
     description: 'Formulário interativo para venda de carros desenvolvido com HTML e CSS básicos.',
     technologies: ['HTML', 'CSS'],
@@ -143,7 +153,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Formulario-venda-carro',
   },
   {
-    id: 16,
+    id: 17,
     name: 'Tributo Silvio',
     description: 'Primeiro projeto HTML/CSS - página tributo desenvolvida como exercício inicial de web.',
     technologies: ['HTML', 'CSS'],
@@ -151,7 +161,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Tributo-Silvio',
   },
   {
-    id: 17,
+    id: 18,
     name: 'Alterando Tema',
     description: 'Projeto de tema claro/escuro desenvolvido com CSS, demonstrando manipulação de estilos dinâmicos.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -161,7 +171,7 @@ export const projects: Project[] = [
 
   // C# STUDIES (12)
   {
-    id: 18,
+    id: 19,
     name: 'Xadrez',
     description: 'Implementação completa do jogo de xadrez em C# com orientação a objetos, incluindo todas as regras e movimentos.',
     technologies: ['C#', 'OOP'],
@@ -169,7 +179,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Xadrez',
   },
   {
-    id: 19,
+    id: 20,
     name: 'Calculadora de Combustível',
     description: 'Aplicação para cálculo de consumo de combustível desenvolvida em C# com conceitos de OOP.',
     technologies: ['C#', 'OOP'],
@@ -177,7 +187,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Calculadora-de-Combustivel-',
   },
   {
-    id: 20,
+    id: 21,
     name: 'Lambda',
     description: 'Projeto educacional focado em estudos de expressões Lambda em C# e programação funcional.',
     technologies: ['C#', 'Lambda', 'LINQ'],
@@ -185,7 +195,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Lambda',
   },
   {
-    id: 21,
+    id: 22,
     name: 'Interfaces',
     description: 'Projeto demonstrando implementação e uso de Interfaces em C#, padrões de design com interfaces.',
     technologies: ['C#', 'Interfaces', 'OOP'],
@@ -193,7 +203,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Interfaces',
   },
   {
-    id: 22,
+    id: 23,
     name: 'Exceptions',
     description: 'Projeto focado em tratamento de exceções em C#, demonstrando try-catch e boas práticas de erro.',
     technologies: ['C#', 'Exception Handling'],
@@ -201,7 +211,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Exceptions',
   },
   {
-    id: 23,
+    id: 24,
     name: 'Enums',
     description: 'Projeto educacional sobre uso de enumerações em C# e como utilizá-las em aplicações reais.',
     technologies: ['C#', 'Enums'],
@@ -209,7 +219,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Enums',
   },
   {
-    id: 24,
+    id: 25,
     name: 'Encapsulamento',
     description: 'Projeto focado em princípios de encapsulamento em C#, modificadores de acesso e propriedades.',
     technologies: ['C#', 'Encapsulamento', 'OOP'],
@@ -217,7 +227,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Encapsulamento',
   },
   {
-    id: 25,
+    id: 26,
     name: 'Orientação a Objetos',
     description: 'Projeto educacional com fundamentos de programação orientada a objetos em C#.',
     technologies: ['C#', 'OOP'],
@@ -225,7 +235,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Orientacao-a-objetos',
   },
   {
-    id: 26,
+    id: 27,
     name: 'Editor HTML',
     description: 'Editor de HTML desenvolvido em C# com interface gráfica para edição de documentos HTML.',
     technologies: ['C#', '.NET Framework', 'GUI'],
@@ -233,7 +243,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Editor-HTML',
   },
   {
-    id: 27,
+    id: 28,
     name: 'Cronômetro',
     description: 'Aplicação cronômetro/timer desenvolvida em C# com Windows Forms e tratamento de eventos.',
     technologies: ['C#', '.NET Framework', 'Windows Forms'],
@@ -241,7 +251,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Cronometro',
   },
   {
-    id: 28,
+    id: 29,
     name: 'Text Editor',
     description: 'Editor de texto em C# demonstrando manipulação de arquivos e interface de usuário.',
     technologies: ['C#', '.NET Framework'],
@@ -249,7 +259,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Text-Editor',
   },
   {
-    id: 29,
+    id: 30,
     name: 'Calculadora',
     description: 'Aplicação calculadora desenvolvida em C# com operações matemáticas básicas e avançadas.',
     technologies: ['C#', '.NET Framework'],
@@ -259,7 +269,7 @@ export const projects: Project[] = [
 
   // JAVA STUDIES (2)
   {
-    id: 30,
+    id: 31,
     name: 'Desafio Classes iPhone',
     description: 'Desafio de modelagem orientada a objetos em Java, simulando classes de um iPhone.',
     technologies: ['Java', 'OOP'],
@@ -267,7 +277,7 @@ export const projects: Project[] = [
     github: 'https://github.com/GuilhermeTorrenteee/Desafio-Classes-Iphone',
   },
   {
-    id: 31,
+    id: 32,
     name: 'Contador',
     description: 'Desafio do bootcamp implementando um contador com Java e orientação a objetos.',
     technologies: ['Java', 'OOP'],
@@ -277,7 +287,7 @@ export const projects: Project[] = [
 
   // PORTFOLIO (1)
   {
-    id: 32,
+    id: 33,
     name: 'Portfólio Pessoal',
     description: 'Portfólio profissional desenvolvido com React, TypeScript e Vite. Showcasing de projetos, tecnologias e habilidades.',
     technologies: ['React', 'TypeScript', 'Vite', 'Firebase', 'CSS3'],
